@@ -1,0 +1,13 @@
+dotnet new sln --name OrderMAnagementBackEnd
+
+dotnet new webapi -o API
+
+dotnet new classlib -o Infrastructure
+
+dotnet new classlib -o Core
+
+dotnet sln add API
+
+dotnet sln add Infrastructure
+
+dotnet sln add Core
