@@ -11,3 +11,24 @@ dotnet sln add API
 dotnet sln add Infrastructure
 
 dotnet sln add Core
+
+
+API --> Infrastructure
+
+Infra -> CORE
+
+cd API
+
+dotnet add reference ../Infrastructure
+
+cd ..
+
+cd Infrastructure
+
+dotnet add reference ../Core
+
+dotnet restore
+
+
+Adding Voyager
+
