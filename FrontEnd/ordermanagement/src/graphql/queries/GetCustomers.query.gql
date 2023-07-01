@@ -1,0 +1,13 @@
+query GetCusomers {
+  customers {
+    id
+    firstName
+    lastName
+    cotactNumber
+    address {
+      customerId
+      addressLine1
+      addressLine2
+    }
+  }
+}
